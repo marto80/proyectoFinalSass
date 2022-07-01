@@ -225,6 +225,9 @@ nav {
   height: 100%;
   padding: 3%; }
 
+.box__horarios__big {
+  padding: 5%; }
+
 @media (min-width: 768px) {
   .table__container {
     font-size: 1em; }
