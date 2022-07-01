@@ -1,2 +1,16 @@
+nav {
+        background-color: $beidgeOscuro;
+	    width: 100%;
+	    font-size: $textLg;
+    img{
+        width: 50%;
+	    padding: 5%;
+    }
+    li{
+        &:hover{
+            background-color: $beidgeOscuro;
+            border-radius: 5%;
+        }
+    }
 
-
+}
