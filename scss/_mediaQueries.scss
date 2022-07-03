@@ -29,15 +29,33 @@
 
 @media (min-width:1024px){
 	.table__container{
-		font-size: 1.3em;
+		font-size: $textLg;
 	}
 	#tit__carousel{
-		font-size: 4rem;
+		font-size: $textXxxl;
 		font-weight: bolder;
 	}
 	.carousel-item{
 		p {
-			font-size: 2em;
+			font-size: $textXl;
 		}
 	} 
+}
+
+@media (max-width:440px){
+.logo__peque{
+	width: 50%;
+	}
+
+#tit__carousel{
+	font-size: $textMd;
+	font-weight: bolder;
+	}
+
+.carousel-item{
+	p {
+		font-size: $textSm;
+		}
+	} 
+
 }
